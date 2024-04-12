@@ -1,0 +1,32 @@
+.top-section {
+    display: flex;
+    justify-content: center; /* Centers remaining buttons horizontally */
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 2% 3%;
+    font-size: 22px;
+    border-radius: 5px;
+    
+  }
+  
+  .login-button-container {
+    margin-right: 3%;
+  }
+  
+  .login-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding:   15px 20px;
+  }
+
+  .login-button.hover{
+    background-color: rgba(255, 255, 255, 0.1); 
+    transition: background-color 0.3s ease; 
+  }
+  
+  
+  
+  
