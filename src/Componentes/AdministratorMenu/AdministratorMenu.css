@@ -9,26 +9,38 @@
 }
 
 .menu-item {
+    align-self:flex-end;
     cursor: pointer;
-    margin-bottom: 10px;
-    border-radius: 5px; 
+    margin-bottom: .5em;
+    border-radius: .5em; 
+    font-size: 1.3em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .sub-menu-item {
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-radius: 5px; 
+    font-size: .9em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .logout-button {
     cursor: pointer;
     margin-top: auto; 
-    font-size: 18px;
+    font-size: 1.3em;
     border-radius: 5px; 
     background-color: transparent;
     color: #fff; 
     border: 1px solid #fff; 
     padding: 8px 16px; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .menu-item:hover,
@@ -43,9 +55,13 @@
 }
 
 .background-image {
-    top: 0;
-    left: 0;
-    width: 40%; /* Reducir a la mitad el ancho */
-    height: auto; /* Mantener la proporción de aspecto */
+    align-self: center;
+    background-color: #ffffff;
+    width: 40%;
+    height: auto; 
+    padding: 3px; 
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-bottom: 15%;
     
 }
